@@ -1,0 +1,104 @@
+{
+  ".github/workflows/deal_radar.yml": {
+    "mtime": 1794175978.1109972,
+    "seen": 1794175997.357127,
+    "ast_hash": "8934918c42793801972d5fab85435dc2",
+    "semantic_hash": ""
+  },
+  "config.json": {
+    "mtime": 1794175976.5445945,
+    "seen": 1794175997.3571346,
+    "ast_hash": "a491964a6a6cfc76a8de31bbd5ca931f",
+    "semantic_hash": ""
+  },
+  "src/geizhals.py": {
+    "mtime": 1794173646.77399,
+    "seen": 1794173953.9329667,
+    "ast_hash": "5e66d994bf7ca71de95a7bbf40cbd8d8",
+    "semantic_hash": ""
+  },
+  "src/main.py": {
+    "mtime": 1794175273.6341207,
+    "seen": 1794175997.3571455,
+    "ast_hash": "145da14ba886cf0812681ae71072a9b9",
+    "semantic_hash": ""
+  },
+  "src/models.py": {
+    "mtime": 1794173647.0987644,
+    "seen": 1794173953.9329712,
+    "ast_hash": "e7e603cf3d26f6792bd1f56acb11a276",
+    "semantic_hash": ""
+  },
+  "src/mydealz.py": {
+    "mtime": 1794175273.7128093,
+    "seen": 1794175997.3571503,
+    "ast_hash": "124a5c91b76cc06d92ba8c676b3e25b3",
+    "semantic_hash": ""
+  },
+  "src/notifier.py": {
+    "mtime": 1794174120.1586516,
+    "seen": 1794174331.7489557,
+    "ast_hash": "a0dca7ec66f741728ae948350011b754",
+    "semantic_hash": ""
+  },
+  "src/parser_utils.py": {
+    "mtime": 1794174476.037476,
+    "seen": 1794174590.4341068,
+    "ast_hash": "e9cac0fcddf210bc4b223b8c1384253e",
+    "semantic_hash": ""
+  },
+  "src/state.py": {
+    "mtime": 1794173647.2335908,
+    "seen": 1794173953.9329789,
+    "ast_hash": "508ca6e7b4a73e60ccb275f4d64c5b3f",
+    "semantic_hash": ""
+  },
+  "tests/test_mydealz.py": {
+    "mtime": 1794175084.3532498,
+    "seen": 1794175150.3545263,
+    "ast_hash": "c144fdb4689d37ceee8ab260e92b769a",
+    "semantic_hash": ""
+  },
+  "tests/test_notifier_and_geizhals.py": {
+    "mtime": 1794174120.200618,
+    "seen": 1794174331.7489643,
+    "ast_hash": "cde34c84ef8c17459589c1bfe356957f",
+    "semantic_hash": ""
+  },
+  "tests/test_state.py": {
+    "mtime": 1794173647.3115156,
+    "seen": 1794173953.9329846,
+    "ast_hash": "37979caacbfceda2c3eea084a3c23d5f",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1794173479.7160544,
+    "seen": 1794173953.9329867,
+    "ast_hash": "b87d5e31872b95f07b30a8edf98eb408",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-08-wuerzburg-deal-radar.md": {
+    "mtime": 1794173106.572219,
+    "seen": 1794173435.5055902,
+    "ast_hash": "5617341d7c288a3957154696de20b657",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/specs/2026-11-08-wuerzburg-deal-radar-design.md": {
+    "mtime": 1794173106.614515,
+    "seen": 1794173435.5055916,
+    "ast_hash": "6f025db8544bc8d002a4b7351df2037e",
+    "semantic_hash": ""
+  },
+  "requirements.txt": {
+    "mtime": 1794173646.7470546,
+    "seen": 1794173953.9329946,
+    "ast_hash": "0792c9e8be3a9534b9d7d62d2ad429bb",
+    "semantic_hash": ""
+  },
+  "data/seen_deals.json": {
+    "mtime": 1794174817.736849,
+    "seen": 1794175150.3545063,
+    "ast_hash": "0139ad0ffa01d80262e137528b563a7f",
+    "semantic_hash": ""
+  }
+}

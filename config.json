@@ -1,0 +1,8 @@
+{
+  "telegram_bot_token": "",
+  "telegram_chat_id": "",
+  "min_discount_electronics_pct": 20.0,
+  "min_discount_fashion_pct": 30.0,
+  "min_mydealz_temperature": 50,
+  "check_interval_seconds": 300
+}

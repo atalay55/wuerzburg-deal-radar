@@ -1,0 +1,42 @@
+name: Würzburg Black Friday Deal Radar
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  scan-deals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Deal Radar
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m src.main
+
+      - name: Persist updated price state (for step-down re-alerting)
+        run: |
+          if [ -f data/seen_deals.json ]; then
+            git config user.name "deal-radar-bot"
+            git config user.email "deal-radar-bot@users.noreply.github.com"
+            git add data/seen_deals.json
+            git diff --staged --quiet || (git pull --rebase && git commit -m "chore: update deal price history" && git push)
+          fi
