@@ -126,6 +126,15 @@ def run_once(dry_run: bool = False, config_path: Path = DEFAULT_CONFIG_PATH, wai
     # Only persist seen_deals when actually sent to Telegram so dry-runs don't swallow deals!
     if tg_token and tg_chat_id and not dry_run:
         store.save()
+        if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+            send_telegram_message(
+                tg_token,
+                tg_chat_id,
+                f"✅ <b>GitHub Actions Bulut Testi Başarılı!</b> ☁️🚀\n"
+                f"• <b>Taranan taze fırsat:</b> {len(deals)}\n"
+                f"• <b>Gönderilen yeni/ek indirim alarmı:</b> {alert_count}\n"
+                f"<i>Sistem bilgisayarın kapalıyken 7/24 aktif olarak çalışıyor.</i>",
+            )
 
     print(f"\n[Tarama Tamamlandı] Taranan uygun kategori fırsatı: {len(deals)} | Yeni/Ek İndirim Alarmı: {alert_count}", flush=True)
     return alert_count
