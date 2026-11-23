@@ -285,5 +285,33 @@
     "last_discount_pct": 51.7,
     "url": "https://www.mydealz.de/deals/puma-damen-cool-cat-20-wns-badelatschen-black-rose-gold-39-eu-2878733",
     "updated_at": "2026-11-22T17:45:06.724178+00:00"
+  },
+  "mydealz:black-week-sale-zb-converse-sneaker-fur-999eur-fila-hoodie-fur-999eur-puma-boxershorts-6er-fur-1899eur-urban-boots-fur-1199eur-495eur-vsk-2879564": {
+    "title": "BLACK WEEK SALE z.B. Converse Sneaker für 9.99€, FILA Hoodie für 9.99€, Puma Boxershorts 6er für 18.99€, Urban Boots für 9.99€ + 4.95€ VSK",
+    "last_price": 9.99,
+    "last_discount_pct": 78.3,
+    "url": "https://www.mydealz.de/deals/black-week-sale-zb-converse-sneaker-fur-999eur-fila-hoodie-fur-999eur-puma-boxershorts-6er-fur-1899eur-urban-boots-fur-1199eur-495eur-vsk-2879564",
+    "updated_at": "2026-11-23T13:11:07.148583+00:00"
+  },
+  "mydealz:galeria-members-30-black-shopping-auf-fashion-schuhe-kleinlederware-accessoires-handtaschen-2879262": {
+    "title": "[GALERIA Members] 30% Black Shopping auf Fashion, Schuhe, Kleinlederware, Accessoires, Handtaschen",
+    "last_price": null,
+    "last_discount_pct": 30.0,
+    "url": "https://www.mydealz.de/deals/galeria-members-30-black-shopping-auf-fashion-schuhe-kleinlederware-accessoires-handtaschen-2879262",
+    "updated_at": "2026-11-23T13:11:08.494139+00:00"
+  },
+  "mydealz:brooks-glycerin-gts-23-fur-109eur-uvp-180eur-2878793": {
+    "title": "Laufschuhe Brooks Glycerin Gts 23 für 109€ uvp 180€",
+    "last_price": 109.0,
+    "last_discount_pct": 39.4,
+    "url": "https://www.mydealz.de/deals/brooks-glycerin-gts-23-fur-109eur-uvp-180eur-2878793",
+    "updated_at": "2026-11-23T13:11:09.799144+00:00"
+  },
+  "mydealz:prime-jack-jones-herren-glenn-original-jeans-in-blau-verschied-grossen-farben-ab-1807eur-2879345": {
+    "title": "[Prime] JACK & JONES Herren Glenn Original Jeans in Blau verschied. Größen & Farben ab 18,07€",
+    "last_price": 18.07,
+    "last_discount_pct": 70.0,
+    "url": "https://www.mydealz.de/deals/prime-jack-jones-herren-glenn-original-jeans-in-blau-verschied-grossen-farben-ab-1807eur-2879345",
+    "updated_at": "2026-11-23T13:11:12.207957+00:00"
   }
 }
